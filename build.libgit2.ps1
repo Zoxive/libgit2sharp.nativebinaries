@@ -10,10 +10,10 @@
 #>
 
 Param(
-    [string]$vs = '10',
+    [string]$vs = '15',
     [string]$libgit2Name = '',
     [switch]$test,
-    [switch]$debug
+    [switch]$debug = $true
 )
 
 Set-StrictMode -Version Latest
